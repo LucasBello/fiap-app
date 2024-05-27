@@ -16,6 +16,8 @@
 11. [Verificação do Status dos Recursos](#11-verificação-do-status-dos-recursos)
 12. [Acesso à Aplicação](#12-acesso-à-aplicação)
 13. [Teardown do Ambiente](#13-teardown-do-ambiente)
+14. [Anexos](#14-anexos)
+15. [Referencias](#15-referências)
 
 ## 1. Login no OpenShift
 
@@ -351,8 +353,70 @@ project "fiap-app" deleted
 persistentvolume "fiap-app-pv" deleted
 
 ```
+## 14. Anexos
+### Screenshots
 
-## 13. Referências
+- **Comando `oc login`:**
+
+  ![oc login](https://github.com/LucasBello/fiap-app/blob/main/screenshots/oc-login.png)
+  [Link para a imagem](https://github.com/LucasBello/fiap-app/blob/main/screenshots/oc-login.png)
+
+- **Comando `oc new-project`:**
+
+  ![oc new-project](https://github.com/LucasBello/fiap-app/blob/main/screenshots/oc-new-project.png)
+  [Link para a imagem](https://github.com/LucasBello/fiap-app/blob/main/screenshots/oc-new-project.png)
+
+- **Comando `oc apply -f pv.yaml`:**
+
+  ![oc apply -f pv.yaml](https://github.com/LucasBello/fiap-app/blob/main/screenshots/oc-apply-pv.png)
+  [Link para a imagem](https://github.com/LucasBello/fiap-app/blob/main/screenshots/oc-apply-pv.png)
+
+- **Comando `oc apply -f pvc.yaml`:**
+
+  ![oc apply -f pvc.yaml](https://github.com/LucasBello/fiap-app/blob/main/screenshots/oc-apply-pvc.png)
+  [Link para a imagem](https://github.com/LucasBello/fiap-app/blob/main/screenshots/oc-apply-pvc.png)
+
+- **Comando `docker build`:**
+
+  ![docker build](https://github.com/LucasBello/fiap-app/blob/main/screenshots/docker-build.png)
+  [Link para a imagem](https://github.com/LucasBello/fiap-app/blob/main/screenshots/docker-build.png)
+
+- **Comando `docker push`:**
+
+  ![docker push](https://github.com/LucasBello/fiap-app/blob/main/screenshots/docker-push.png)
+  [Link para a imagem](https://github.com/LucasBello/fiap-app/blob/main/screenshots/docker-push.png)
+
+- **Comando `oc apply -f deployment.yaml`:**
+
+  ![oc apply -f deployment.yaml](https://github.com/LucasBello/fiap-app/blob/main/screenshots/oc-apply-deployment.png)
+  [Link para a imagem](https://github.com/LucasBello/fiap-app/blob/main/screenshots/oc-apply-deployment.png)
+
+- **Comando `oc apply -f service.yaml`:**
+
+  ![oc apply -f service.yaml](https://github.com/LucasBello/fiap-app/blob/main/screenshots/oc-apply-service.png)
+  [Link para a imagem](https://github.com/LucasBello/fiap-app/blob/main/screenshots/oc-apply-service.png)
+
+- **Comando `oc apply -f route.yaml`:**
+
+  ![oc apply -f route.yaml](https://github.com/LucasBello/fiap-app/blob/main/screenshots/oc-apply-route.png)
+  [Link para a imagem](https://github.com/LucasBello/fiap-app/blob/main/screenshots/oc-apply-route.png)
+
+- **Comando `oc apply -f hpa.yaml`:**
+
+  ![oc apply -f hpa.yaml](https://github.com/LucasBello/fiap-app/blob/main/screenshots/oc-apply-hpa.png)
+  [Link para a imagem](https://github.com/LucasBello/fiap-app/blob/main/screenshots/oc-apply-hpa.png)
+
+- **Comando `oc get pods`:**
+
+  ![oc get pods](https://github.com/LucasBello/fiap-app/blob/main/screenshots/oc-get-pods.png)
+  [Link para a imagem](https://github.com/LucasBello/fiap-app/blob/main/screenshots/oc-get-pods.png)
+
+- **Acesso à aplicação:**
+
+  ![Acesso à aplicação](https://github.com/LucasBello/fiap-app/blob/main/screenshots/app-access.png)
+  [Link para a imagem](https://github.com/LucasBello/fiap-app/blob/main/screenshots/app-access.png)
+
+## 15. Referências
 
 - [OpenShift CLI Reference](https://docs.openshift.com/container-platform/4.6/cli_reference/openshift_cli/getting-started-cli.html)
 
@@ -371,14 +435,4 @@ persistentvolume "fiap-app-pv" deleted
 - [YAML Reference](https://yaml.org/spec/1.2/spec.html)
 
 - [Markdown Reference](https://www.markdownguide.org/basic-syntax/)
-
-## 14. Anexos
-
-- [Deployment.yaml](./openshift-config.yaml)
-
-- [Exemplo de Arquivo de Configuração do Docker](./Dockerfile)
-
-- [Exemplo de Arquivo de Configuração do Kubernetes](./kubernetes-config.yaml)
-
-- [Exemplo de Arquivo de Configuração do YAML](./yaml-config.yaml)
 
