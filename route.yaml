@@ -1,0 +1,10 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: fiap-app
+spec:
+  to:
+    kind: Service
+    name: fiap-app
+  port:
+    targetPort: 5000

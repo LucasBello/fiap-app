@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: fiap-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: fiap-app
+  template:
+    metadata:
+      labels:
+        app: fiap-app
+    spec:
+      containers:
+      - name: fiap-app
+        image: default-route-openshift-image-registry.apps-crc.testing/fiap-app/fiap-app:latest
+        ports:
+        - containerPort: 5000
+        volumeMounts:
+        - mountPath: "/app/data"
+          name: fiap-data
+      volumes:
+      - name: fiap-data
+        persistentVolumeClaim:
+          claimName: fiap-app-pvc
