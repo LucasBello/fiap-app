@@ -353,68 +353,88 @@ project "fiap-app" deleted
 persistentvolume "fiap-app-pv" deleted
 
 ```
+
+
 ## 14. Anexos
 ### Screenshots
 
 - **Comando `oc login`:**
 
-  ![oc login](https://github.com/LucasBello/fiap-app/blob/main/screenshots/oc-login.png)
-  [Link para a imagem](https://github.com/LucasBello/fiap-app/blob/main/screenshots/oc-login.png)
+  ![oc login](https://github.com/LucasBello/fiap-app/blob/main/screenshots/1.png)
+
+  [Link para a imagem](https://github.com/LucasBello/fiap-app/blob/main/screenshots/1.png)
 
 - **Comando `oc new-project`:**
 
-  ![oc new-project](https://github.com/LucasBello/fiap-app/blob/main/screenshots/oc-new-project.png)
-  [Link para a imagem](https://github.com/LucasBello/fiap-app/blob/main/screenshots/oc-new-project.png)
+  ![oc new-project](https://github.com/LucasBello/fiap-app/blob/main/screenshots/2.png)
+
+  [Link para a imagem](https://github.com/LucasBello/fiap-app/blob/main/screenshots/2.png)
 
 - **Comando `oc apply -f pv.yaml`:**
 
-  ![oc apply -f pv.yaml](https://github.com/LucasBello/fiap-app/blob/main/screenshots/oc-apply-pv.png)
-  [Link para a imagem](https://github.com/LucasBello/fiap-app/blob/main/screenshots/oc-apply-pv.png)
+  ![oc apply -f pv.yaml](https://github.com/LucasBello/fiap-app/blob/main/screenshots/3.png)
+
+  [Link para a imagem](https://github.com/LucasBello/fiap-app/blob/main/screenshots/3.png)
 
 - **Comando `oc apply -f pvc.yaml`:**
 
-  ![oc apply -f pvc.yaml](https://github.com/LucasBello/fiap-app/blob/main/screenshots/oc-apply-pvc.png)
-  [Link para a imagem](https://github.com/LucasBello/fiap-app/blob/main/screenshots/oc-apply-pvc.png)
+  ![oc apply -f pvc.yaml](https://github.com/LucasBello/fiap-app/blob/main/screenshots/4.png)
+
+  [Link para a imagem](https://github.com/LucasBello/fiap-app/blob/main/screenshots/4.png)
 
 - **Comando `docker build`:**
 
-  ![docker build](https://github.com/LucasBello/fiap-app/blob/main/screenshots/docker-build.png)
-  [Link para a imagem](https://github.com/LucasBello/fiap-app/blob/main/screenshots/docker-build.png)
+  ![docker build](https://github.com/LucasBello/fiap-app/blob/main/screenshots/5.png)
+
+  [Link para a imagem](https://github.com/LucasBello/fiap-app/blob/main/screenshots/5.png)
 
 - **Comando `docker push`:**
 
-  ![docker push](https://github.com/LucasBello/fiap-app/blob/main/screenshots/docker-push.png)
-  [Link para a imagem](https://github.com/LucasBello/fiap-app/blob/main/screenshots/docker-push.png)
+  ![docker push](https://github.com/LucasBello/fiap-app/blob/main/screenshots/6.png)
+
+  [Link para a imagem](https://github.com/LucasBello/fiap-app/blob/main/screenshots/6.png)
 
 - **Comando `oc apply -f deployment.yaml`:**
 
-  ![oc apply -f deployment.yaml](https://github.com/LucasBello/fiap-app/blob/main/screenshots/oc-apply-deployment.png)
-  [Link para a imagem](https://github.com/LucasBello/fiap-app/blob/main/screenshots/oc-apply-deployment.png)
+  ![oc apply -f deployment.yaml](https://github.com/LucasBello/fiap-app/blob/main/screenshots/7.png)
+
+  [Link para a imagem](https://github.com/LucasBello/fiap-app/blob/main/screenshots/7.png)
 
 - **Comando `oc apply -f service.yaml`:**
 
-  ![oc apply -f service.yaml](https://github.com/LucasBello/fiap-app/blob/main/screenshots/oc-apply-service.png)
-  [Link para a imagem](https://github.com/LucasBello/fiap-app/blob/main/screenshots/oc-apply-service.png)
+  ![oc apply -f service.yaml](https://github.com/LucasBello/fiap-app/blob/main/screenshots/8.png)
+
+  [Link para a imagem](https://github.com/LucasBello/fiap-app/blob/main/screenshots/8.png)
 
 - **Comando `oc apply -f route.yaml`:**
 
-  ![oc apply -f route.yaml](https://github.com/LucasBello/fiap-app/blob/main/screenshots/oc-apply-route.png)
-  [Link para a imagem](https://github.com/LucasBello/fiap-app/blob/main/screenshots/oc-apply-route.png)
+  ![oc apply -f route.yaml](https://github.com/LucasBello/fiap-app/blob/main/screenshots/9.png)
+
+  [Link para a imagem](https://github.com/LucasBello/fiap-app/blob/main/screenshots/9.png)
 
 - **Comando `oc apply -f hpa.yaml`:**
 
-  ![oc apply -f hpa.yaml](https://github.com/LucasBello/fiap-app/blob/main/screenshots/oc-apply-hpa.png)
-  [Link para a imagem](https://github.com/LucasBello/fiap-app/blob/main/screenshots/oc-apply-hpa.png)
+  ![oc apply -f hpa.yaml](https://github.com/LucasBello/fiap-app/blob/main/screenshots/10.png)
+
+  [Link para a imagem](https://github.com/LucasBello/fiap-app/blob/main/screenshots/10.png)
 
 - **Comando `oc get pods`:**
 
-  ![oc get pods](https://github.com/LucasBello/fiap-app/blob/main/screenshots/oc-get-pods.png)
-  [Link para a imagem](https://github.com/LucasBello/fiap-app/blob/main/screenshots/oc-get-pods.png)
+  ![oc get pods](https://github.com/LucasBello/fiap-app/blob/main/screenshots/11.png)
+  
+  ![oc get pods](https://github.com/LucasBello/fiap-app/blob/main/screenshots/12.png)
+
+  [Link para a imagem1](https://github.com/LucasBello/fiap-app/blob/main/screenshots/11.png)
+
+  [Link para a imagem2](https://github.com/LucasBello/fiap-app/blob/main/screenshots/12.png)
 
 - **Acesso à aplicação:**
 
-  ![Acesso à aplicação](https://github.com/LucasBello/fiap-app/blob/main/screenshots/app-access.png)
-  [Link para a imagem](https://github.com/LucasBello/fiap-app/blob/main/screenshots/app-access.png)
+  ![Acesso à aplicação](https://github.com/LucasBello/fiap-app/blob/main/screenshots/13.png)
+
+  [Link para a imagem](https://github.com/LucasBello/fiap-app/blob/main/screenshots/13.png)
+
+
 
 ## 15. Referências
 
